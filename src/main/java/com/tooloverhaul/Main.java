@@ -1,4 +1,4 @@
-package homeleswaffle.to;
+package com.tooloverhaul;
 
 
 import net.minecraftforge.fml.common.Mod;
