@@ -1,5 +1,6 @@
 package com.tooloverhaul.proxy;
 
+import com.tooloverhaul.render.TOItemRender;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -12,7 +13,7 @@ public class ClientProxy extends CommonProxy{
 
     public void init(FMLInitializationEvent Event){
         super.init(Event);
-        //TOItemRender.registerItemRender();
+        TOItemRender.registerItemRender();
         //TOBlockRender.registerBlockRender();
     }
 
